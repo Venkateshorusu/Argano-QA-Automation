@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-19T14:31:04 IST" name="Default suite" finished-at="2023-05-19T14:35:38 IST" duration-ms="273315">
+    <groups>
+    </groups>
+    <test started-at="2023-05-19T14:31:04 IST" name="Default test" finished-at="2023-05-19T14:35:38 IST" duration-ms="273315">
+      <class name="Pages.PFL_CPQ_to_WEBCENTER">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Pages.PFL_CPQ_to_WEBCENTER@771a660]" started-at="2023-05-19T14:31:01 IST" name="setup" finished-at="2023-05-19T14:31:04 IST" duration-ms="2914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="webcenterUploadWorkingFile()[pri:2, instance:Pages.PFL_CPQ_to_WEBCENTER@771a660]" started-at="2023-05-19T14:31:04 IST" name="webcenterUploadWorkingFile" finished-at="2023-05-19T14:35:38 IST" duration-ms="273284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webcenterUploadWorkingFile -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Pages.PFL_CPQ_to_WEBCENTER@771a660]" started-at="2023-05-19T14:35:38 IST" name="getResult" finished-at="2023-05-19T14:35:38 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=webcenterUploadWorkingFile status=SUCCESS method=PFL_CPQ_to_WEBCENTER.webcenterUploadWorkingFile()[pri:2, instance:Pages.PFL_CPQ_to_WEBCENTER@771a660] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="generatereport()[pri:0, instance:Pages.PFL_CPQ_to_WEBCENTER@771a660]" started-at="2023-05-19T14:35:38 IST" name="generatereport" finished-at="2023-05-19T14:35:39 IST" duration-ms="1294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generatereport -->
+      </class> <!-- Pages.PFL_CPQ_to_WEBCENTER -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PFL">
+
+
+	<test name="Transactionuptosave">
+		<classes>
+			<class name="Pages.PFL1">
+				<methods>
+					<include name="test1" />
+					<include name="test2" /> 
+				</methods>
+			</class>
+
+
+		</classes>
+	</test>
+
+
+</suite>
+
+
